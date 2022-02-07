@@ -2,6 +2,7 @@ import basic.helloWorld
 import basic.mutableAndImmutable
 import basic.nonnullAndNullable
 import basic.unitEqualVoidInJava
+import control.forExample
 import func.*
 
 fun main(args: Array<String>) {
@@ -25,6 +26,7 @@ fun main(args: Array<String>) {
 
     extensionFuncExample()
     anonymousFunctionExample()
+    forExample()
 }
 
 
