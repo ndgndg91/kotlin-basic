@@ -4,6 +4,7 @@ import basic.nonnullAndNullable
 import basic.unitEqualVoidInJava
 import control.forExample
 import func.*
+import interfaceInKotlin.exampleInterface
 
 fun main(args: Array<String>) {
     helloWorld(args)
@@ -27,6 +28,7 @@ fun main(args: Array<String>) {
     extensionFuncExample()
     anonymousFunctionExample()
     forExample()
+    exampleInterface()
 }
 
 
