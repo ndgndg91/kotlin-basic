@@ -5,6 +5,7 @@ import basic.unitEqualVoidInJava
 import classInKotlin.exampleClass
 import classInKotlin.exampleSealedClass
 import control.forExample
+import control.patternMatchingExample
 import func.*
 import interfaceInKotlin.exampleInterface
 
@@ -27,6 +28,7 @@ fun main(args: Array<String>) {
     println("${addWithDefaultValue(y = 9)}")
     println("${addWithDefaultValue()}")
 
+    patternMatchingExample()
     extensionFuncExample()
     anonymousFunctionExample()
     forExample()
