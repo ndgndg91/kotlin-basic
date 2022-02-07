@@ -12,6 +12,9 @@ import destructure.exampleOfDestructure
 import func.*
 import generic.exampleOfGeneric
 import interfaceInKotlin.exampleInterface
+import stdlib.exampleOfAlso
+import stdlib.exampleOfApply
+import stdlib.exampleOfStdlib
 
 fun main(args: Array<String>) {
     helloWorld(args)
@@ -44,6 +47,9 @@ fun main(args: Array<String>) {
     exampleOfList()
     exampleOfMap()
     exampleOfGeneric()
+    exampleOfStdlib()
+    exampleOfApply()
+    exampleOfAlso()
 }
 
 
