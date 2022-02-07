@@ -6,6 +6,7 @@ import classInKotlin.exampleClass
 import classInKotlin.exampleSealedClass
 import control.forExample
 import control.patternMatchingExample
+import destructure.exampleOfDestructure
 import func.*
 import interfaceInKotlin.exampleInterface
 
@@ -35,6 +36,7 @@ fun main(args: Array<String>) {
     exampleInterface()
     exampleClass()
     exampleSealedClass()
+    exampleOfDestructure()
 }
 
 
