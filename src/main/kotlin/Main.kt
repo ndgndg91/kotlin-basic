@@ -10,6 +10,7 @@ import control.forExample
 import control.patternMatchingExample
 import destructure.exampleOfDestructure
 import func.*
+import generic.exampleOfGeneric
 import interfaceInKotlin.exampleInterface
 
 fun main(args: Array<String>) {
@@ -42,6 +43,7 @@ fun main(args: Array<String>) {
 
     exampleOfList()
     exampleOfMap()
+    exampleOfGeneric()
 }
 
 
