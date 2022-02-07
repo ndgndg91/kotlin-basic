@@ -4,6 +4,8 @@ import basic.nonnullAndNullable
 import basic.unitEqualVoidInJava
 import classInKotlin.exampleClass
 import classInKotlin.exampleSealedClass
+import collections.exampleOfList
+import collections.exampleOfMap
 import control.forExample
 import control.patternMatchingExample
 import destructure.exampleOfDestructure
@@ -37,6 +39,9 @@ fun main(args: Array<String>) {
     exampleClass()
     exampleSealedClass()
     exampleOfDestructure()
+
+    exampleOfList()
+    exampleOfMap()
 }
 
 
