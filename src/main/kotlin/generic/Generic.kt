@@ -4,6 +4,10 @@ import java.util.NoSuchElementException
 
 data class Box<T>(val t: T)
 
+open class Language
+open class JVM: Language()
+class Kotlin: JVM()
+
 fun exampleOfGeneric() {
     val ten = Box(10)
     val name = Box("남동길")
