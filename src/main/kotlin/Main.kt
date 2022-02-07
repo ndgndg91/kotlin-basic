@@ -2,6 +2,8 @@ import basic.helloWorld
 import basic.mutableAndImmutable
 import basic.nonnullAndNullable
 import basic.unitEqualVoidInJava
+import classInKotlin.exampleClass
+import classInKotlin.exampleSealedClass
 import control.forExample
 import func.*
 import interfaceInKotlin.exampleInterface
@@ -29,6 +31,8 @@ fun main(args: Array<String>) {
     anonymousFunctionExample()
     forExample()
     exampleInterface()
+    exampleClass()
+    exampleSealedClass()
 }
 
 
