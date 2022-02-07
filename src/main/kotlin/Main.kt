@@ -16,6 +16,7 @@ import stdlib.exampleOfApply
 import stdlib.exampleOfStdlib
 
 fun main(args: Array<String>) {
+    basic(args)
     recursion()
 }
 
