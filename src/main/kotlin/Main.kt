@@ -1,7 +1,4 @@
-import basic.helloWorld
-import basic.mutableAndImmutable
-import basic.nonnullAndNullable
-import basic.unitEqualVoidInJava
+import basic.*
 import classInKotlin.exampleClass
 import classInKotlin.exampleSealedClass
 import collections.exampleOfList
@@ -12,14 +9,24 @@ import destructure.exampleOfDestructure
 import func.*
 import generic.exampleOfGeneric
 import interfaceInKotlin.exampleInterface
+import recursion.exampleRecursiveMaximumInList
+import recursion.fibonacciRecursive
 import stdlib.exampleOfAlso
 import stdlib.exampleOfApply
 import stdlib.exampleOfStdlib
 
 fun main(args: Array<String>) {
+    recursion()
+}
+
+private fun recursion() {
+    println(fibonacciRecursive(10))
+    exampleRecursiveMaximumInList()
+}
+
+private fun basic(args: Array<String>) {
     helloWorld(args)
-    mutableAndImmutable()
-    nonnullAndNullable()
+    exampleOfBasic()
     unitEqualVoidInJava()
 
     val four = twice1(2)
@@ -51,6 +58,3 @@ fun main(args: Array<String>) {
     exampleOfApply()
     exampleOfAlso()
 }
-
-
-

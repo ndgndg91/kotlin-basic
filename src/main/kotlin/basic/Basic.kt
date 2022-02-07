@@ -1,5 +1,10 @@
 package basic
 
+fun exampleOfBasic() {
+    mutableAndImmutable()
+    nonnullAndNullable()
+}
+
 fun helloWorld(args: Array<String>) {
     println("Hello World!")
 
@@ -8,7 +13,7 @@ fun helloWorld(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
 }
 
-fun mutableAndImmutable() {
+private fun mutableAndImmutable() {
     val value: Int = 10
     var mutableValue: Int = 20;
 
@@ -18,7 +23,7 @@ fun mutableAndImmutable() {
     println("immutable value is : $value")
 }
 
-fun nonnullAndNullable() {
+private fun nonnullAndNullable() {
     val nonNullValue: String = "nonNull"
     val nullableValue: String? = null
 
