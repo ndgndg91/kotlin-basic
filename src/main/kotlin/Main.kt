@@ -1,8 +1,7 @@
 import basic.*
 import classInKotlin.exampleClass
 import classInKotlin.exampleSealedClass
-import collections.exampleOfList
-import collections.exampleOfMap
+import collections.*
 import control.forExample
 import control.patternMatchingExample
 import destructure.exampleOfDestructure
@@ -16,8 +15,9 @@ import stdlib.exampleOfApply
 import stdlib.exampleOfStdlib
 
 fun main(args: Array<String>) {
-    basic(args)
-    recursion()
+//    basic(args)
+//    recursion()
+    exampleOfSortedList()
 }
 
 private fun recursion() {
@@ -36,7 +36,7 @@ private fun basic(args: Array<String>) {
 
     println("$four $sixteen $twentyFive")
 
-    println("${add1(1, 1) + add2(2, 2,) + add3(3, 3)}")
+    println("${add1(1, 1) + add2(2, 2) + add3(3, 3)}")
     println("${addWithDefaultValue(5)}")
     println("${addWithDefaultValue(5, 5)}")
     println("${addWithDefaultValue(x = 7)}")
@@ -58,4 +58,12 @@ private fun basic(args: Array<String>) {
     exampleOfStdlib()
     exampleOfApply()
     exampleOfAlso()
+
+    exampleOfArrays()
+    exampleOfItems()
+
+    exampleOfCoerceIn()
+    exampleOfChunked()
+    exampleOfWindowed()
+    exampleOfListDestructuring()
 }
