@@ -10,6 +10,7 @@ import generic.exampleOfGeneric
 import interfaceInKotlin.exampleInterface
 import recursion.exampleRecursiveMaximumInList
 import recursion.fibonacciRecursive
+import sequences.*
 import stdlib.exampleOfAlso
 import stdlib.exampleOfApply
 import stdlib.exampleOfStdlib
@@ -17,7 +18,7 @@ import stdlib.exampleOfStdlib
 fun main(args: Array<String>) {
 //    basic(args)
 //    recursion()
-
+    exampleOfCreation()
 }
 
 private fun recursion() {
@@ -70,4 +71,9 @@ private fun basic(args: Array<String>) {
     exampleOfIterators()
     exampleOfSpecificType()
     exampleOfFilterIsInstanceTo()
+
+    exampleOfEager()
+    exampleOfEagerBetter()
+    exampleOfOptimise()
+    exampleOfBadSequence()
 }
