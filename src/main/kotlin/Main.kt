@@ -17,7 +17,7 @@ import stdlib.exampleOfStdlib
 fun main(args: Array<String>) {
 //    basic(args)
 //    recursion()
-    exampleOfSortedList()
+
 }
 
 private fun recursion() {
@@ -66,4 +66,8 @@ private fun basic(args: Array<String>) {
     exampleOfChunked()
     exampleOfWindowed()
     exampleOfListDestructuring()
+    exampleOfSortedList()
+    exampleOfIterators()
+    exampleOfSpecificType()
+    exampleOfFilterIsInstanceTo()
 }
