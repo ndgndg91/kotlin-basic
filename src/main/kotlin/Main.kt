@@ -8,6 +8,7 @@ import delegates.*
 import destructure.exampleOfDestructure
 import func.*
 import generic.exampleOfGeneric
+import inputoutput.exampleOfUseLines
 import interfaceInKotlin.exampleInterface
 import recursion.exampleRecursiveMaximumInList
 import recursion.fibonacciRecursive
@@ -19,9 +20,7 @@ import stdlib.exampleOfStdlib
 fun main(args: Array<String>) {
 //    basic(args)
 //    recursion()
-    exampleOfObservableVetoable()
-    exampleOfMapDelegate()
-    exampleOfCustomDelegate()
+    exampleOfUseLines()
 }
 
 private fun recursion() {
@@ -84,4 +83,8 @@ private fun basic(args: Array<String>) {
     exampleOfComposition()
     exampleOfLazy()
     exampleOfNotNull()
+    exampleOfObservableVetoable()
+    exampleOfMapDelegate()
+    exampleOfCustomDelegate()
+
 }
