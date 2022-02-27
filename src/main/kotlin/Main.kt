@@ -4,6 +4,7 @@ import classInKotlin.exampleSealedClass
 import collections.*
 import control.forExample
 import control.patternMatchingExample
+import delegates.*
 import destructure.exampleOfDestructure
 import func.*
 import generic.exampleOfGeneric
@@ -18,7 +19,9 @@ import stdlib.exampleOfStdlib
 fun main(args: Array<String>) {
 //    basic(args)
 //    recursion()
-    exampleOfCreation()
+    exampleOfObservableVetoable()
+    exampleOfMapDelegate()
+    exampleOfCustomDelegate()
 }
 
 private fun recursion() {
@@ -76,4 +79,9 @@ private fun basic(args: Array<String>) {
     exampleOfEagerBetter()
     exampleOfOptimise()
     exampleOfBadSequence()
+    exampleOfCreation()
+
+    exampleOfComposition()
+    exampleOfLazy()
+    exampleOfNotNull()
 }
