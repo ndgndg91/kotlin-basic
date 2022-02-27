@@ -1,4 +1,7 @@
-import basic.*
+import additionals.*
+import basic.exampleOfBasic
+import basic.helloWorld
+import basic.unitEqualVoidInJava
 import classInKotlin.exampleClass
 import classInKotlin.exampleSealedClass
 import collections.*
@@ -20,7 +23,7 @@ import stdlib.exampleOfStdlib
 fun main(args: Array<String>) {
 //    basic(args)
 //    recursion()
-    exampleOfUseLines()
+
 }
 
 private fun recursion() {
@@ -87,4 +90,16 @@ private fun basic(args: Array<String>) {
     exampleOfMapDelegate()
     exampleOfCustomDelegate()
 
+    exampleOfUseLines()
+
+    exampleOfKotlinVersion()
+    exampleOfRepeat()
+    exampleOfReplaceRegex()
+    exampleOfRadix()
+    exampleOfRunnableClass()
+    exampleOfMeasureTime()
+    exampleOfStartThread()
+    exampleOfTodo()
+    exampleOfRandom()
+    exampleOfSpecialFunctionName()
 }
