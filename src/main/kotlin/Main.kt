@@ -7,6 +7,7 @@ import classInKotlin.exampleSealedClass
 import collections.*
 import control.forExample
 import control.patternMatchingExample
+import coroutine.*
 import delegates.*
 import destructure.exampleOfDestructure
 import func.*
@@ -23,7 +24,7 @@ import stdlib.exampleOfStdlib
 fun main(args: Array<String>) {
 //    basic(args)
 //    recursion()
-
+    exampleOfCancelCoroutine()
 }
 
 private fun recursion() {
@@ -31,7 +32,7 @@ private fun recursion() {
     exampleRecursiveMaximumInList()
 }
 
-private fun basic(args: Array<String>) {
+private suspend fun basic(args: Array<String>) {
     helloWorld(args)
     exampleOfBasic()
     unitEqualVoidInJava()
@@ -102,4 +103,9 @@ private fun basic(args: Array<String>) {
     exampleOfTodo()
     exampleOfRandom()
     exampleOfSpecialFunctionName()
+
+    exampleOfCoroutineBuilder()
+    exampleOfWithContext()
+    exampleOfDisPatchers()
+    exampleOfCustomCoroutineDispatcher()
 }
